@@ -1,3 +1,38 @@
 body {
 	background-color: yellow;
 }
+
+main {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row;
+}
+
+main section {
+	width: 30%;
+	background-color: white;
+	border: solid 1px;
+
+} 
+
+p, h2 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+
+main {
+
+	flex-flow: column;
+
+
+}
+
+main section {
+	width: 100%;
+
+
+}
+
+} /*end media block*/
